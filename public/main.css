@@ -1,0 +1,45 @@
+
+h1{
+    font-family: arial;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+input{
+    height: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 100px;
+}
+#button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(255, 17, 0);
+}
+.wrap{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 270px;
+    float: left;
+    font-family: arial;
+}
